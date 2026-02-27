@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محفظة أعمال | مصمم جرافيك</title>
+    <meta name="description" content="محفظة أعمال احترافية لمصمم جرافيك، تصميم بصري وإبداع.">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">أستوديو<span>إبداع</span></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">الرئيسية</a></li>
+            <li><a href="#services">خدماتي</a></li>
+            <li><a href="#portfolio">أعمالي</a></li>
+            <li><a href="#contact">تواصل معي</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="subtitle">مرحباً، أنا مصمم جرافيك</h2>
+            <h1 class="title">أصنع <span class="gradient-text">هويات بصرية</span> تترك أثراً</h1>
+            <p class="description">أحول الأفكار المعقدة إلى تصميمات بصرية جذابة وبسيطة. متخصص في تصميم الشعارات، الهويات التجارية، وواجهات المستخدم.</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">شاهد أعمالي</a>
+                <a href="#contact" class="btn btn-outline">تواصل معي</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="glass-shape"></div>
+            <div class="float-img">
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 class="section-title">خبراتي و<span>خدماتي</span></h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fa-solid fa-pen-nib"></i>
+                <h3>تصميم الشعارات</h3>
+                <p>ابتكار شعارات مميزة تعكس جوهر علامتك التجارية، وترك طابع لا يُنسى لجمهورك المستهدف.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-bezier-curve"></i>
+                <h3>الهوية البصرية</h3>
+                <p>بناء نظام بصري متكامل للشركات والمؤسسات يضمن اتساق ظهور العلامة بشكل احترافي.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-object-group"></i>
+                <h3>تصميم واجهات (UI/UX)</h3>
+                <p>تصميم واجهات استخدام عصرية وعملية لتطبيقات الجوال ومواقع الويب.</p>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-bullhorn"></i>
+                <h3>تصاميم السوشيال ميديا</h3>
+                <p>صناعة محتوى بصري جذاب لمنصات التواصل الاجتماعي يساهم في زيادة التفاعل.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2 class="section-title">أحدث <span>أعمالي</span></h2>
+        
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">الكل</button>
+            <button class="filter-btn" data-filter="branding">هوية بصرية</button>
+            <button class="filter-btn" data-filter="social">فنون وتجريد</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <!-- Project 1 -->
+            <div class="portfolio-item branding" data-category="branding">
+                <div class="portfolio-img">
+                    <img src="./assets/brand_mockup.jpeg" alt="مشروع هوية بصرية">
+                    <div class="portfolio-overlay">
+                        <h3>مشروع ستوديو نوفا</h3>
+                        <p>هوية بصرية متكاملة</p>
+                        <a href="#" class="view-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="portfolio-item social" data-category="social">
+                <div class="portfolio-img">
+                    <img src="./assets/abstract_poster.jpeg" alt="تصميم بوستر ابداعي">
+                    <div class="portfolio-overlay">
+                        <h3>حملة ألوان الطيف</h3>
+                        <p>بوسترات إعلانية تجريدية</p>
+                        <a href="#" class="view-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="portfolio-item branding" data-category="branding">
+                <div class="portfolio-img">
+                    <img src="./assets/logo_presentation.jpeg" alt="تصميم شعار شركتي">
+                    <div class="portfolio-overlay">
+                        <h3>شعار شركة أوركس</h3>
+                        <p>تصميم شعار عصري وبسيط</p>
+                        <a href="#" class="view-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2 class="section-title">لنبدأ مشروعك <span>القادم</span></h2>
+                <p>هل لديك فكرة رائعة أو مشروع تحتاج إلى تطويره بصرياً؟ أنا هنا لمساعدتك.</p>
+                <ul class="contact-list">
+                    <li><i class="fa-solid fa-envelope"></i> hello@designerstudio.com</li>
+                    <li><i class="fa-solid fa-phone"></i> +966 50 123 4567</li>
+                    <li><i class="fa-solid fa-location-dot"></i> الرياض، المملكة العربية السعودية</li>
+                </ul>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="الاسم الكامل" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" placeholder="رسالتك أو تفاصيل المشروع..." rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary submit-btn">إرسال الرسالة <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 جميع الحقوق محفوظة | تم التصميم بشغف بواسطة أستوديو إبداع</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
